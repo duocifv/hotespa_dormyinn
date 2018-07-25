@@ -1,0 +1,14 @@
+<div class="headerPage">
+<div class="headerPage_navbar group">
+<div class="container">
+<div class="headerPage_navbar_nav">
+<ul class="disp-pc">
+<li><a href="/dormyinn/">ドーミーインTOP</a></li>
+<li><a href="https://asp.hotel-story.ne.jp/ver3d/ASPY0300.asp?cod1=MIHQ0&cod2=&bcid=C02" target="_blank">予約の変更・確認</a></li>
+<li><a href="https://member.kyoritsugroup.com/mypage/update?cid=C02" target="_blank">会員情報の確認</a></li>
+<li><a href="/dormyinn/list/">施設一覧</a></li>
+</ul>
+</div>
+</div>
+</div>
+

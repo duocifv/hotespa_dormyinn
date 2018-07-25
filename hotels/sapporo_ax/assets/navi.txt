@@ -1,0 +1,46 @@
+<div class="headerPage_nav txt-center disp-pc">
+<ul>
+<li><a href="/hotels/sapporo_ax/">ホテルTOP</a></li>
+<li><a href="/hotels/sapporo_ax/spa/">大浴場について</a></li>
+<li><a href="/hotels/sapporo_ax/hotel/">施設のフロア情報</a></li>
+<li><a href="/hotels/sapporo_ax/room/">客室について</a></li>
+<li><a href="/hotels/sapporo_ax/access/">アクセス</a></li>
+</ul>
+</div>
+<div class="headerPage_nav-sp disp-sp">
+<div class="headerPage_nav-sp_btn">
+<span></span>
+<span></span>
+<span></span>
+</div>
+<div class="headerPage_nav-sp_ctn hide">
+<div class="headerPage_nav-sp_ctn_inner">
+<ul class="list-01">
+<li><a href="/hotels/sapporo_ax/">ホテルTOP</a></li>
+<li><a href="/hotels/sapporo_ax/spa/">大浴場について</a></li>
+<li><a href="/hotels/sapporo_ax/hotel/">施設のフロア情報</a></li>
+<li><a href="/hotels/sapporo_ax/room/">客室について</a></li>
+<li><a href="/hotels/sapporo_ax/access/">アクセス</a></li>
+</ul>
+
+
+<div class="reservation_sp">
+<p>ドーミーイン札幌ANNEX</p>
+<ul>
+<li><a href="https://asp.hotel-story.ne.jp/ver3d/planlist.asp?hcod1=MI640&hcod2=001&bcid=C02&mode=seek&clrmode=true&reffrom=" target="_blank">ご宿泊予約（プラン一覧）</a></li>
+<li><a href="https://asp.hotel-story.ne.jp/ver3d/planlist.asp?hcod1=MI640&hcod2=001&mode=seek&c2plan=3006&clrmode=true&bcid=C02" target="_blank">日帰り（プラン一覧）</a></li>
+<li><a href="https://www.tour-list.com/TL/?hc=CT281" target="_blank">ホテル＋航空券（プラン一覧）</a></li>
+</ul>
+</div>
+
+
+<p><img src="/hotels/sapporo_ax/assets/image/headerpage_navsp_logo.png" alt=""></p>
+<ul class="list-02">
+<li><a href="/dormyinn/">dormy innトップページ</a></li>
+<li><a href="/hotels/garosugil/">dormy inn SEOUL</a></li>
+<li><a href="/resort/">共立リゾート</a></li>
+<li><a href="/spa/">SPA</a></li>
+</ul>
+</div>
+</div>
+</div>
