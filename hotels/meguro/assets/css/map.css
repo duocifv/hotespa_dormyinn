@@ -1,0 +1,611 @@
+/* --------------------------------------------------
+add map_l.html style
+-------------------------------------------------- */
+#map {
+	background: rgb(248, 244, 237);
+}
+#hotelmap {
+    width: 100%;
+    max-width: 450px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+
+.blk-tbl-02 td, .blk-tbl-02 th {
+    font-size: 0.785em;
+    border-bottom: 1px dotted rgb(189, 185, 154);
+    line-height: 1.7;
+    text-align: left;
+    padding: 10px 20px;
+}
+
+#hotelmap h2 {
+    text-align: center;
+    border: none;
+    margin-bottom: 10px;
+}
+
+#hotelmap img {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+}
+
+.blk-tbl-02 table {
+    width: 100%;
+}
+
+.blk-tbl-02 th {
+    background: rgb(233, 232, 222);
+    color: rgb(60, 59, 49);
+    width: 23%;
+    font-weight: normal;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.blk-tbl-02 td {
+    color: rgb(89, 81, 27);
+}
+
+.blk-tbl-02 td, .blk-tbl-02 th {
+    font-size: 0.785em;
+    border-bottom: 1px dotted rgb(189, 185, 154);
+    line-height: 1.7;
+    text-align: left;
+    padding: 10px 20px;
+}
+
+.blk-tbl-02 {
+    background: rgb(255, 255, 255);
+    border-top: 2px solid rgb(189, 185, 154);
+    border-bottom: 2px solid rgb(189, 185, 154);
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+
+
+#page-map {
+    background-color: #f8f4ed;
+}
+
+#page-map #hotelmap {
+    width: 100%;
+    max-width: 450px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+#page-map #hotelmap h2 {
+    text-align: center;
+    border: none;
+    margin-bottom: 10px;
+}
+
+#page-map .hdg-lv2-01 {
+    font-family: "ＭＳ Ｐゴシック", "MS PGothic", "ヒラギノ角ゴ Pro W3", serif;
+    font-size: 1.45em;
+    border-left: 3px solid #ff8a00;
+    padding: 0 12px;
+    margin: 0 0 35px 0;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+#page-map .mgb-20 {
+    margin-bottom: 20px !important;
+}
+
+#page-map img {
+    vertical-align: top;
+}
+
+#page-map .blk-tbl-02 {
+    background: #fff;
+    border-top: 2px solid #bdb99a;
+    border-bottom: 2px solid #bdb99a;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#page-map .blk-tbl-02 td {
+    color: #59511b;
+}
+
+#page-map .blk-tbl-02 td,
+.blk-tbl-02 th {
+    font-size: 0.785em;
+    border-bottom: 1px dotted #bdb99a;
+    line-height: 1.7;
+    text-align: left;
+    padding: 10px 20px;
+}
+
+#page-map .blk-tbl-02 th {
+    background: #e9e8de;
+    color: #3c3b31;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+#page-map .blk-tbl-02 table {
+    width: 100%;
+}
+
+#page-map table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.btn-orange.right {
+    float: right;
+}
+
+.btn-orange {
+    width: 48%;
+}
+
+#orange-bg th,
+.btn-orange {
+    background-color: #F28815;
+    position: relative;
+}
+
+.btn-hover-map:hover,
+.btn-hover-print:hover {
+    background-color: #e76e02;
+    -webkit-transition: background-color 0.8s ease-out;
+    -moz-transition: background-color 0.8s ease-out;
+    -o-transition: background-color 0.8s ease-out;
+    transition: background-color 0.8s ease-out;
+}
+
+.btn-hover-map:hover:before {
+    content: url("../image/icon-map.png");
+    width: 13px;
+    position: absolute;
+    top: 17px;
+    left: 25px;
+}
+
+.btn-hover-print:hover:before {
+    content: url("../image/icon-print.png");
+    width: 13px;
+    position: absolute;
+    top: 17px;
+    left: 44px;
+}
+
+
+
+
+
+
+
+/* --------------------------------------------------
+add search form
+-------------------------------------------------- */
+
+.root_box {
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.root_box ul {
+    list-style: none;
+}
+
+#here:hover {
+    cursor: pointer;
+    color: #FF0004;
+}
+
+#map_in {
+    text-align: left;
+    padding: 5px;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+.tabAc {
+    margin: 0 auto;
+    width: 320px;
+    padding: 0;
+}
+
+.tabAc.clearfix:after {}
+
+.tabAc li {
+    background: rgb(242, 242, 242);
+    color: rgb(46, 46, 46);
+    padding: 11px 39px 7px 39px;
+    float: left;
+    margin: 15px 2px 0px 0;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+}
+
+.tabAc li strong {
+    display: none;
+}
+
+.tabAc li.select {
+    background: rgb(240, 124, 0);
+    color: rgb(255, 255, 255);
+}
+
+.tabAc li.select:hover {
+    background: rgb(240, 124, 0);
+}
+
+.tabAc li.select strong {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 14px 10px 0 10px;
+    border-color: rgb(240, 124, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+    position: absolute;
+    display: block;
+    top: 39px;
+    left: 39%;
+    z-index: 9999;
+}
+
+#point_box textarea {
+    width: 210px;
+    padding: 7px 5px;
+    vertical-align: middle;
+    font-size: 11.5px;
+    letter-spacing: -0.4px;
+}
+
+.btn_center {
+    text-align: center;
+    margin-top: 23px;
+}
+
+.btn_center a {
+    background: rgb(240, 124, 0);
+    border: 2px solid rgb(236, 122, 0);
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 7px;
+    width: 316px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.tabAc li:hover {
+    background: rgba(240, 124, 0, 0.5);
+    color: rgb(255, 255, 255);
+}
+
+#map_in a {
+    line-height: 1.2;
+}
+
+#map_in .clearfix:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+#map_in:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+* html #map_in {
+    zoom: 1;
+}
+
+
+
+/* IE6 */
+
+*:first-child+html #map_in {
+    zoom: 1;
+}
+
+
+
+/* IE7 */
+
+#map_in h1 {
+    border-left: 6px solid #0A4EA9;
+    padding-left: 10px;
+    font-size: 120%;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+#map_in h1 a {
+    color: #0A4EA9;
+    text-decoration: none;
+}
+
+#map_in h1 a span {
+    font-size: 85%;
+}
+
+#map_in .map_p p {
+    margin: 5px 0 0 0;
+    line-height: 1.5;
+}
+
+#map_in .map_p strong {
+    display: block;
+    font-size: 110%;
+}
+
+#map_in .map_p span {
+    font-size: 85%;
+}
+
+#map_in .map_p strong a {
+    text-decoration: none;
+    color: #333;
+}
+
+#imhere {
+    margin: 10px 0;
+}
+
+.btnarea {
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 1px 1px 0px 1px;
+}
+
+.btnarea p {
+    background: #eee;
+    margin: 0;
+    padding: 9px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.tab_wrap {
+    padding: 20px;
+    background: #ffffff;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f7f7f7+100 */
+    background: -moz-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+    /* Old browsers */
+    background: -webkit-linear-gradient(top, #ffffff 0%, #f7f7f7 100%);
+    /* FF3.6-15 */
+    background: linear-gradient(to bottom, #ffffff 0%, #f7f7f7 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f7f7', GradientType=0);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    /* IE6-9 */
+}
+
+.srcPoint div {
+    margin-bottom: 10px;
+}
+
+.srcPoint span {
+    border-left: 6px solid #F07C00;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 12px;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.btn_center {
+    text-align: center;
+    margin-top: 23px;
+}
+
+#mapbox {
+    position: relative;
+    height: 650px;
+}
+
+#mapbox #ac_m,
+#mapbox #map_custmomize {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#mapbox #ac_m {
+    z-index: 49;
+}
+
+#mapbox #map_custmomize {
+    z-index: 1;
+    width: 100%;
+    /*height: 450px;*/
+}
+
+#maptab {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#maptab li {
+    width: 253px;
+    padding: 10px;
+    color: #FFF;
+    box-sizing: border-box;
+    border-radius: 3px 3px 0px 0;
+    text-align: center;
+}
+
+#maptab #tab1 {
+    background: #0B2242;
+    float: left;
+}
+
+#maptab #tab1:hover {
+    cursor: pointer;
+}
+
+#maptab #tab2:hover {
+    cursor: pointer;
+}
+
+#maptab #tab2 {
+    background: #C2B367;
+    float: right;
+}
+
+#tab_bottom {
+    height: 10px;
+    background: #0B2242;
+}
+
+.srcPoint {
+    text-align: left;
+    float: left;
+}
+
+#change {
+    float: left;
+    padding-top: 15px;
+}
+
+#change img {
+    vertical-align: middle;
+}
+
+.contentPage .col-1-sp:last-child .col-1-sp_inner {
+    margin-left: 0;
+}
+
+
+#hotelmap .hdg-lv2-01 {
+    font-family: "ＭＳ Ｐゴシック", "MS PGothic", "ヒラギノ角ゴ Pro W3", serif;
+    font-size: 1.45em;
+    padding: 0 12px;
+    margin: 0 0 10px 0;
+    line-height: 1.5;
+    font-weight: normal;
+}
+
+@media screen and (max-width: 1024px) {
+    .srcPoint {
+        float: none;
+    }
+
+    #change {
+        float: none;
+        text-align: center;
+    }
+
+    #point_box textarea {
+        width: 100%;
+    }
+
+    #change img:nth-child(1) {
+        display: none;
+    }
+
+    .tabAc {
+        width: 100%;
+    }
+
+    .tabAc li {
+        width: 33.33%;
+        float: left;
+        margin-right: 0;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .btn_center a {
+        width: 100%;
+    }
+
+    .tabAc li.select strong {
+        top: 41px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+.contentPage .col-2:last-child .ml-0 {
+    margin-left: 0;
+}
+
+#room sup {
+    font-size: 70%;
+}
+
+.tbl-list_note:nth-child(2) {
+    margin-top: 3px;
+}
+
+@media screen and (max-width: 640px) {
+    #moin {
+        width: 90%;
+    }
+    .clear {
+        display: none;
+    }
+    .col-content,
+    .col-thumb,
+    {
+        width: 100%;
+    }
+
+
+    .mt50-sp {
+        margin-top: 50px;
+    }
+    .mt-sp7 {
+        margin-top: -4px;
+    }
+    .btn-hover-map:before,
+    .btn-hover-print:before {
+        display: none;
+    }
+    .mb-sp45 {
+        margin-bottom: 50px;
+    }
+    .mt-sp50 {
+        margin-top: 50px;
+    }
+    .srcPoint span {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .srcPoint div {
+        margin-bottom: 25px;
+    }
+    #change {
+        padding: 0;
+        margin-bottom: 12px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    #orange-bg,
+    .root_box {
+        margin-bottom: 50px;
+    }
+}

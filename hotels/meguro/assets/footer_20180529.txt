@@ -1,0 +1,251 @@
+<!-- Content Common 01 -->
+<div class="contentCmn01">
+    <div class="container">
+        <div>
+            <h2 class="contentCmn01_ttl txt-center">もっと詳しく当ホテルの情報を見る</h2>
+        </div>
+        <!-- /Content Common 01 Title -->
+        <div class="contentCmn01_items group">
+            <div class="contentCmn01_item col-3 col-2-sp">
+                <div class="contentCmn01_item_inner">
+                    <p><a href="/hotels/meguro/spa/"><img src="/hotels/meguro/image/img_index_07.jpg" alt="" class="w100"></a></p>
+                    <div>
+                        <h3 class="contentCmn01_item_ttl txt-center"><a href="/hotels/meguro/spa/">大浴場について</a></h3></div>
+                </div>
+            </div>
+            <div class="contentCmn01_item col-3 col-2-sp">
+                <div class="contentCmn01_item_inner">
+                    <p><a href="/hotels/meguro/hotel/"><img src="/hotels/meguro/image/img_index_08.jpg" alt="" class="w100"></a></p>
+                    <div>
+                        <h3 class="contentCmn01_item_ttl txt-center"><a href="/hotels/meguro/hotel/">施設のフロア情報</a></h3></div>
+                </div>
+            </div>
+            <div class="contentCmn01_item col-3 col-2-sp">
+                <div class="contentCmn01_item_inner">
+                    <p><a href="/hotels/meguro/room/"><img src="/hotels/meguro/image/img_index_09.jpg" alt="" class="w100"></a></p>
+                    <div>
+                        <h3 class="contentCmn01_item_ttl txt-center"><a href="/hotels/meguro/room/">客室について</a></h3></div>
+                </div>
+            </div>
+            <div class="contentCmn01_item col-3 col-2-sp">
+                <div class="contentCmn01_item_inner">
+                    <p><a href="/hotels/meguro/access/"><img src="/hotels/meguro/image/img_index_10.jpg" alt="" class="w100"></a></p>
+                    <div>
+                        <h3 class="contentCmn01_item_ttl txt-center"><a href="/hotels/meguro/access/">ホテルへのアクセス</a></h3></div>
+                </div>
+            </div>
+        </div>
+        <!-- /Content Common 01 Items -->
+    </div>
+</div>
+<!-- // Content Common 01 -->
+<!-- Content Common 02 -->
+<div class="contentCmn02">
+    <div class="container">
+        <div>
+            <h2 class="contentCmn02_ttl txt-center">施設概要</h2>
+        </div>
+        <!-- /Content Common 02 Title -->
+        <table class="contentCmn02_ctn tbl-type01">
+            <tr>
+                <th>開業年</th>
+                <td>1996年4月　リニューアル：2015年7月</td>
+            </tr>
+            <tr>
+                <th>部屋</th>
+                <td>客室数48室
+                    <br>・シングル17室・ダブル11室・スタンダードツイン3室・スーペリアツイン5室・トリプル10室・キング2室
+                </td>
+            </tr>
+            <tr>
+                <th>大浴場</th>
+                <td>サウナ付大浴場を完備。※平日は男性専用</td>
+            </tr>
+            <tr>
+                <th>特徴</th>
+                <td>中目黒駅から徒歩10分、閑静な住宅街にありながら渋谷・恵比寿・六本木へのアクセス抜群です。
+                </td>
+            </tr>
+            <tr>
+                <th>布団</th>
+                <td>
+                    布団：一部羽毛
+                    <br>枕：ポリエステル
+                </td>
+            </tr>
+        </table>
+        <!-- /Content Common 02 Content -->
+        <p class="contentCmn02_btn txt-center disp-pc"><a href="/hotels/panf/meguro/">カタログをダウンロード</a></p>
+        <div class="allergy mt50">
+            <div class="allergy_inner">
+                <div>
+                    <h3 class="allergy_ttl">食物アレルギーをお持ちのお客様へ</h3></div>
+                <p class="allergy_des">ドーミーインチェーンにおきましては、朝食の調理過程において、下記のアレルギー特定原材料7品目も含め他アレルギー食材と同一の調理器具、油等を使用して調理しています。</p>
+                <table class="tbl-type01 mt20">
+                    <tr>
+                        <th>アレルギー特定原材料
+                            <br>7品目</th>
+                        <td>■卵　■小麦　■えび　■乳　■かに　■そば　■落花生</td>
+                    </tr>
+                </table>
+                <p class="allergy_des">夜鳴きそばは、鳥・豚を調理したスープ、麺は小麦粉を使用しております。</p>
+            </div>
+        </div>
+        <!-- /Allergy -->
+    </div>
+</div>
+<!-- // Content Common 02 -->
+<!-- Checkin -->
+<div class="checkin disp-pc">
+    <div class="container group">
+        <div class="checkin_ttl">
+            <h2>ドーミーインEXPRESS<br>目黒青葉台<br><a href="/hotels/meguro/access/">〒153-0042 東京都目黒区青葉台3-21-8</a></h2>
+        </div>
+        <!-- Checkin Title -->
+        <div class="checkin_ctn">
+            <form id="Test1" style="color:#fff !important;">
+                <span class="bookingDate style_block_area style_booking_inner"></span>
+                <p class="checkin_ctn_btn txt-center"><span class="dynSubmit style_block_area"></span></p>
+            </form>
+        </div>
+        <!-- Checkin Content -->
+    </div>
+</div>
+<!-- // Checkin -->
+<!-- Content Common 03 -->
+<div class="contentCmn03 txt-center">
+    <div class="container">
+        <!-- <p class="mt30"><a href="/dormyinn/information/airweave/" target="_blank"><img src="/hotels/meguro/image/airwave_bnr.jpg" alt=""></a></p>
+        <p class="mt30"><img src="/hotels/meguro/image/img_index_13.jpg" alt=""></p> -->
+        <!-- <p class="mt30"><a href="https://www.tour-list.com/TL/?hc=KOJ63" target="_blank" ><img src="/hotels/meguro/image/banner_index_15.jpg" alt=""></a></p> -->
+        <!-- <p class="mt30"><a href="/dormyinn/information/weco/new.html"><img src="/hotels/meguro/image/img_index_14.jpg" alt=""></a></p> -->
+        <div class="mt30"><a href="/dormyinn/the_tokyo_smoothie/"><img src="/hotels/meguro/image/smoothie_meguro.jpg" alt="THE TOKYO SMOOTHIE"></a></div>
+        <div class="mt30"><a href="https://www.tour-list.com/TL/?hc=HN743" target="_blank"><img src="/hotels/meguro/image/banner_plain.jpg" alt="浅草・悠湯〜日帰り旅〜　Refresh Express浅草スペシャル" width="750"></a></div>
+        <div class="mt30"><a href="/dormyinn/information/weco/new.html"><img src="/hotels/meguro/image/img_index_07_pc.jpg" alt="連泊WECO清掃"></a></div>
+        <div class="mt30"><a href="/hotels/gc_gotanda/"><img src="/hotels/meguro/image/gcgotanda_750.jpg" alt="五反田"></a></div>
+    </div>
+</div>
+<!-- // Content Common 03 -->
+<!-- Footer Page -->
+<div class="footerPage">
+    <div class="footerPage_addr">
+        <div class="footerPage_addr_map">
+            <div id="map"></div>
+        </div>
+        <div class="container">
+            <div class="footerPage_addr_ctn">
+                <p class="txt-center">ドーミーインEXPRESS<br>目黒青葉台
+                    <br> 〒153-0042<br>東京都目黒区青葉台3-21-8
+                    <br><a href="tel:0368945489">TEL.03-6894-5489</a>
+                    <br>FAX.03-6894-5100
+                    <br>
+                    <a href="mailto:inn-meguro@dormy-hotels.com">inn-meguro@dormy-hotels.com</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- /Footer Page Address -->
+    <div class="footerPage_navbar">
+        <div class="container">
+            <div class="footerPage_navbar_row">
+                <div class="footerPage_navbar_col">
+                    <img src="/hotels/meguro/assets/image/footerpage_logo.png" alt="express dormy inn" class="disp-pc">
+                    <img src="/hotels/meguro/assets/image/footerpage_logo_sp.png" alt="express dormy inn" class="disp-sp">
+                </div>
+                <div class="footerPage_navbar_col">
+                    <ul class="footerPage_navbar_list">
+                        <li><a href="/resort/">共立リゾート</a></li>
+                        <li><a href="/dormyinn/">ドーミーイン</a></li>
+                        <li><a href="/spa/">スパ</a></li>
+                        <li><a href="https://renewal.hotespa.net/dormyinn/list/">施設一覧</a></li>
+                    </ul>
+                </div>
+                <div class="footerPage_navbar_col">
+                    <ul class="footerPage_navbar_list">
+                        <li><a href="#" data-remodal-target="notice">予約の確認・変更</a></li>
+                        <li><a href="https://member.kyoritsugroup.com/mypage/update?cid=C02" target="_blank">会員登録情報の確認・変更</a></li>
+                    </ul>
+                </div>
+                <div class="footerPage_navbar_col">
+                    <ul class="footerPage_navbar_list">
+                        <li><a href="/rule/">ご利用規約</a></li>
+                        <li><a href="http://www.kyoritsugroup.co.jp/privacy/index.html" target="_blank">個人情報保護方針</a></li>
+                        <li><a href="http://www.kyoritsugroup.co.jp/company/index.html" target="_blank">会社情報</a></li>
+                        <li><a href="http://www.kyoritsugroup.co.jp/recruit/" target="_blank">採用情報</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Footer Page Navbar -->
+    <p class="footerPage_copy txt-center">Copyright 2018 kyoritsugroup.co.jp All rights reserved.</p>
+    <p class="footerPage_bottom txt-center"><img src="/hotels/meguro/assets/image/footerpage_bottom.png" alt="よい朝のために。Kyoritsu Hotels & Dormitories"></p>
+</div>
+<!-- // Footer Page -->
+<!-- Navbar SP -->
+<div class="navbarSP disp-sp">
+    <ul class="navbarSP_items">
+        <li class="navbarSP_item col-4">
+            <a href="/hotels/meguro/">
+                <p><img src="/hotels/meguro/assets/image/navbarsp_item01.png" alt=""></p>
+                <p>ホーム</p>
+            </a>
+        </li>
+        <li class="navbarSP_item col-4">
+            <a href="https://asp.hotel-story.ne.jp/ver3d/planlist.asp?hcod1=MI570&hcod2=001&bcid=C02&mode=seek&clrmode=true&reffrom=" target="_blank">
+                <p><img src="/hotels/meguro/assets/image/navbarsp_item02.png" alt=""></p>
+                <p>宿泊予約</p>
+            </a>
+        </li>
+        <li class="navbarSP_item col-4">
+            <a href="/hotels/meguro/access/">
+                <p><img src="/hotels/meguro/assets/image/navbarsp_item03.png" alt=""></p>
+                <p>アクセス</p>
+            </a>
+        </li>
+        <li class="navbarSP_item navbarSP_item_last col-4">
+            <a href="tel:0368945489">
+                <p><img src="/hotels/meguro/assets/image/navbarsp_item04.png" alt=""></p>
+                <p>TEL</p>
+            </a>
+        </li>
+    </ul>
+</div>
+<!-- // Navbar SP -->
+<!-- Javascript -->
+<script src="/hotels/meguro/assets/js/jquery-1.12.4.js"></script>
+<script src="/hotels/meguro/assets/js/jquery-ui.js"></script>
+<script src="/hotels/meguro/assets/js/function.js"></script>
+<script>
+function initMap() {
+    var myLatLng = new google.maps.LatLng(35.649231, 139.692170);
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 17,
+        center: myLatLng
+    });
+    var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'ドーミーインEXPRESS目黒青葉台'
+    });
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJXy0rPvM5YyZ35EvZihADEEVHJC0jCdk&amp;callback=initMap" async defer></script>
+<script src="/hotels/meguro/assets/js/flexslider.js"></script>
+<script>
+$(function() {
+    $('.headerPage_mainvisual').flexslider({
+        animation: "slide",
+        controlNav: false,
+        directionNav: false,
+        slideshowSpeed: 5000
+    });
+});
+</script>
+<!-- // Javascript -->
+<script src="/hotels/meguro/assets/js/route.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash-compat/3.10.0/lodash.min.js"></script>
+<script type="text/javascript" src="/hotels/meguro/assets/search/Data/JSON.js" charset="utf-8"></script>
+<script type="text/javascript" src="/common/search/dormyinn_standard/src/dynjs/calculation.js" charset="utf-8"></script>
+<script type="text/javascript" src="/common/search/dormyinn_standard/src/dynjs/getURL.js" charset="utf-8"></script>
+<script type="text/javascript" src="/common/search/dormyinn_standard/src/dynjs/jkl-calendar.js" charset="Shift_JIS"></script>
+<script type="text/javascript" src="/common/search/dormyinn_standard/src/dynjs/exec.js" charset="utf-8"></script>
