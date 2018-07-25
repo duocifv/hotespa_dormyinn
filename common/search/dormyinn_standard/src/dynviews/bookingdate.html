@@ -1,0 +1,40 @@
+  
+ <table class="checkin_ctn_tbl">
+<tr>
+<td><label for="i_day">チェックイン</label></td>
+<span id='dynCalendar<%-idSuffix%>' style="margin-top:-80px !important;"  class="calendar_css"></span>                    
+<td>
+    <span class='dynDate' style="margin-bottom:-7px;float:right">
+        <ul id="bookingroom">
+            <li class ="year"><input type="text" value="2017" maxlength='4' class="year cmbARRY style_inputArea hasDatepicker"/><span>年</span></li>
+            <li class ="month"><input type="text" value="17" maxlength='2' class="month cmbARRM style_inputArea hasDatepicker"/><span>月</span> <%=bookingDatePunctuation%></li>
+            <li class ="day"><input type="text" value="05" maxlength='2' class="day cmbARRD style_inputArea hasDatepicker"/><span>日</span></li>
+        </ul> <!--/#bookingroom-->
+    </span>
+    <div style="clear:both;"></div>
+</td>
+
+
+
+<td>１室のご利用人数 </td>
+<td>
+<span class="dynPersons style_block_area" ></span>
+人
+</td>
+</tr>
+
+<tr>
+<td><span class="hide_night">泊数</span></td>
+<td>
+<span class='bookingNights'></span>
+</td>
+<td>
+室数
+</td>
+<td>
+<span class='bookingRooms'></span>
+室
+</td>
+</tr>
+
+<!--<label class='undecided'></label>-->

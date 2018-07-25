@@ -1,0 +1,716 @@
+/* =======================================  */ 
+         /* BOOKING ROOM HOTESPA */
+/* =======================================  */ 
+   
+    
+    #bookingroom {
+        width: 130px;
+        height: 20px;
+        padding: 0 5px;
+        background: #fff;
+    }
+   
+    #bookingroom > li, #bookingroom > li > input {
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+        vertical-align: top;
+        border: none;
+        height: 20px;
+        font: 13.3333px Arial;
+    }
+    #bookingroom > li {
+        display: inline-block;
+        position: relative;
+        *zoom:1;
+        *display: inline;
+        position: relative;
+        margin-right: -4px;
+        background-color: transparent;
+    } 
+    #bookingroom > li > input {
+        color: #000;
+        line-height: 22px;
+        text-align: right;
+        border: none;
+        background-color: transparent;
+        position: relative;
+        outline: 0;
+        width: 100%;
+        height: 20px;
+        text-align: left;
+        z-index: 1;
+        margin-left: -4px;
+        font-weight: normal !important;
+    }
+    #bookingroom > li {
+        position: relative;
+    }
+        #bookingroom > li.year {
+        width: 46px;
+        height: 20px;
+    }
+    #bookingroom > li.month {
+        width: 31px;
+        height: 20px;
+    }
+    #bookingroom > li.day {
+        width: 31px;
+        height: 20px;
+    }
+    #bookingroom > li > span {
+        color: #000;
+        position: absolute;
+        top: 2px;
+        right: -0px;
+        width: 14px;
+        height: 20px;
+        border: none;
+        text-align: left;
+        z-index: 0;
+        display: block;
+        font: 13.3333px Arial;
+         border: 0px solid red;
+        line-height: 15px;
+    }
+    #bookingroom > li > input:focus { 
+        font-weight: bold;
+    }
+    
+/* =======================================  */ 
+                /* END CODE */
+/* =======================================  */ 
+
+
+
+
+   
+    /* ==================================*/
+            /* CALENDER CSS */
+    /* ==================================*/
+    
+    
+    
+    .calendar_css {
+        width: 275px !important;
+        margin-top: -200px;
+    }
+    .calendar_style {
+        padding: .2em;
+        border-radius: 5px;
+        border: 1px solid #dfd9c3;
+        background: #fff;
+        color: #312e25;
+        top: -185px;
+        left: 150px;
+    }
+    .calendar_style .tbl_title{
+        width: 100%; 
+        border: 1px solid #dddddd;
+        background: #e9e9e9;
+        color: #333333;
+        font-weight: bold;
+        font: 13.3333px Arial;
+        padding: 7px;
+    }
+.calendar_style .tbl_title td {
+       height: 20px !important;
+        vertical-align: middle;
+    }
+    
+    .calendar_style .tbl_text {
+        width: 100%;
+        font-weight: bold;
+        padding: .5em .3em  .3em !important;
+        border-collapse: separate !important;
+    }
+    .calendar_style .tbl_text td {
+        color: #312e25;
+        padding: 2px 0px 2px 0px;
+        font-weight: bold!important;
+        text-align: center;
+        font: 13.3333px Arial;
+    
+    }
+    .calendar_style .tbl_cel {
+        width: 100%;
+        padding: 3px;
+        background-color: #fff;
+        border-collapse: separate !important;
+        border-spacing: 2px  !important;
+        height: 194px;
+    }
+    
+    
+    .calendar_style .cell {
+        background: #dfeffc url("http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/redmond/images/ui-bg_flat_55_fbec88_40x100.png") 50% 50% repeat-x;
+        font-weight: bold;
+        color: #2e6e9e;
+    }
+  
+    
+    .calendar_style .btn_today {
+        font-size: 16px;
+        font-family: Arial,Helvetica,sans-serif;
+        color: #333333;
+        padding: 4px 0px 2px 0px;
+        text-align: center;
+        font-weight: bold;
+        
+    }
+    .calendar_style .btn_close {
+        font-size: 12px;
+        width: 20px;
+         color: #333333;
+        padding: 8px 0px 4px 0px;
+        text-align: center;
+        font-weight: bold;
+        width: 30px;
+        height: 15px!important;
+         background-image: url("../../src/dynimg/cancel.png")!important;
+        background-repeat: no-repeat !important;
+        background-position:  center center !important;
+    }
+   
+    .calendar_style .cancel:hover {
+         background-image: url("../../src/dynimg/cancel_hover.png");
+        
+    }
+    .calendar_style .btn_prev {
+        color: #333333;
+        padding: 8px 0px 4px 0px;
+        text-align: center;
+        font-weight: bold;
+        width: 30px;
+        height: 15px!important;
+        background-image: url("../../src/dynimg/pre.png")!important;
+        background-repeat: no-repeat !important;
+        background-position:  center center !important;
+    }
+    .calendar_style .btn_next {
+        color: rgb(51, 51, 51);
+        padding: 8px 0px 4px 0px;
+        font-weight: bold;
+        cursor: pointer;
+        height: 15px !important;
+        width: 30px;
+        background-image: url("../../src/dynimg/next.png")!important;
+        background-repeat: no-repeat !important;
+        background-position:  center center !important;
+    }
+    .calendar_style .btn_prev:hover , .calendar_style .btn_next:hover {
+        opacity: .6;
+    }
+    
+    .calendar_style .tbl_cel td {
+        font-size: 14px;
+        padding: 3px;
+        font-family: Arial,Helvetica,sans-serif;
+        font-weight: bold;
+    }
+    
+    .calendar_style .enable {
+        border: 1px solid #c5c5c5;
+        background: #f6f6f6;
+        font-weight: normal !important;
+        color: #454545 !important;
+    }
+    .calendar_style .enable:hover {
+        background: #ededed !important;
+       
+    }
+    
+    .calendar_style .normal {
+        /*border: 1px solid #718a5d;*/
+        background: #718a5d url("../../../images/ui-bg_highlight-hard_95_cccccc_1x100.png") 50% 50% repeat-x;
+        font-weight: bold;
+        color: #fff !important;
+        font-weight: bold !important;
+        opacity: 0 !important;
+        border: 0 !important;
+    }
+
+    .calendar_style .normal:hover { 
+        background: #718a5d url("../../../images/ui-bg_highlight-hard_95_cccccc_1x100.png") 50% 50% repeat-x !important;
+    }
+    .calendar_style .unable {
+           border: 1px solid #c5c5c5;
+            background: #f6f6f6;
+            font-weight: normal!important;
+            color: #454545!important;
+            opacity: .7;
+        }
+    .calendar_style .active {
+        font-weight: normal!important;
+        border: 1px solid #dad55e;
+        background: #fffa90 !important;
+        color: #777620 !important;
+    }
+    
+    
+    /* ==================================*/
+            /* END CALENDER */
+    /* ==================================*/
+    
+.checkin_ctn {
+    position: relative !important;
+}
+#datPhong .tab1, #datPhong .tab2, #datPhong .tab3 {
+    
+}
+#dynCalendarTest1 {
+    left: 0;
+}
+
+
+.checkin_ctn_tbl input, .checkin_ctn_tbl select{
+            color: #000;
+            border: none;
+            background-color: #fff;
+            outline: none;
+            height: 20px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fixed-bottom {
+    height: 112px;
+} 
+.fixed-bottom {
+    min-height: auto !important;
+}
+
+.checkin .group {
+    min-height: 110px;
+}
+
+#blk-checkin .blk-checkin_inner-title {
+    background-image: url(/common/img/checkin_ttl.png) !important;
+}
+
+
+/*  ===================================== */
+
+/*         [CSS]ĐẶT PHÒNG MỚI             */
+
+/*  ===================================== */
+
+
+.checkin_ttl {
+background-image: url(/common/img/checkin_ttl.png) !important;
+}
+
+.checkin_ctn {
+position: relative !important;
+}
+#dynCalendarTest1 {
+left: 0;
+}
+
+.checkin_ctn_tbl input, .checkin_ctn_tbl select{
+color: #000;
+border: none;
+background-color: #fff;
+outline: none;
+height: 20px;
+}
+
+
+/* ========================================== */
+
+.checkin {
+background-color: #1a3651;
+margin-top: 40px;
+width: 100%;
+}
+.checkin.fixed {
+position: fixed;
+bottom: 0;
+left: 0;
+}
+
+.checkin .group {
+position: relative;
+}
+.checkin #tab {
+position: absolute;
+left: 0;
+top: -35px;
+}
+
+.checkin #tab li {
+list-style: none;
+line-height: 18px;
+float: left;
+margin-right: 4px;
+min-width: 160px;
+text-align: center;
+}
+.checkin #tab li span {
+font-size: 16px;
+font-weight: bold;
+color: #fff;
+text-decoration: none;
+font-family: "Meiryo", Helvetica, Arial, Sans-Serif;
+display: block;
+line-height: 18px;
+padding: 9px 9px 8px;
+background-color: #b1925e;
+border: 0;
+outline: 0;
+margin: 0;
+cursor: pointer;
+}
+.checkin #tab li.active span {
+background-color: #1a3651;
+}
+
+.CategoryBooking, .hide_object .hide_night  {
+display: none;
+}
+
+.checkin_ctn .tourlist-box {
+border: 1px solid red  !important;
+}
+#i_day {
+width: 160px;height: 20px;padding: 0 5px;background: #fff;text-align: right;
+}
+#r_cnt {
+width: 170px;height: 20px;
+}
+
+
+
+
+.iframebox {
+width: 100%;
+margin: 0 auto;
+}
+
+.iframebox iframe {
+width: 100%;
+padding: 0;
+height: 65px;
+}
+.checkin_ctn_btn input[type="button"] {
+margin: 7px 0;
+}
+.checkin_ctn_tbl {
+margin-top: 6px;
+}
+
+.iframebox {
+/*margin-top: 15px;*/
+    margin-top: 13px;
+/*â˜…ä¿®æ­£0619:*/
+    width: 700px;
+}
+
+.iframebox iframe {
+/*height: 80px;*/
+    height: 86.5px;
+/*â˜…ä¿®æ­£0619:*/
+}
+
+
+
+.checkin .container .iframebox {
+/*margin-top: 15px;*/
+margin: 7px 0 0 0;/*â˜…ä¿®æ­£0619:*/
+width: 669px;
+padding-top: 3px;
+}
+.checkin .container .iframebox iframe {
+/*height: 80px;*/
+height: 86.5px;/*â˜…ä¿®æ­£0619:*/
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.checkin .container .iframebox {
+margin: 8px 0 0 0;/*â˜…è¿½åŠ 0619:*/
+width: 669px;
+}
+.checkin .container .iframebox iframe {
+margin:-1px 0 1px;/*â˜…è¿½åŠ 0619:*/
+height: 87px;
+}
+}
+
+
+
+.tab3 select {
+    background-color: #fff;    
+}
+
+
+
+
+
+/* --------------------------------------------------
+Checkin PENTIUM
+-------------------------------------------------- */
+.checkin_pentiem .checkin_ctn_btn {
+width: 87px;
+height: 87px;
+display: block;
+float: right;
+border: 0;
+margin-top: 3px;
+/* margin: 10px 55px 0 0; */
+}
+
+.checkin_pentiem .checkin_ctn_btn input[type="button"] {
+    background-image: url(/common/img/checkin_pentium.png) !important;
+}
+.checkin_pentiem #tab li.active span {
+    background-color: #333333;
+}
+
+.checkin_pentiem {
+ width: 70%;
+ float: left;
+ color: #FFF;
+}
+.checkin_ctn_tbl {
+ width: 75%;
+ float: left;
+ font-size: 14px;
+}
+.checkin_ctn_tbl td {
+ padding: 15px 0 0;
+ text-align: right;
+}
+.checkin_ctn_btn  {
+ width: 25%;
+ float: left;
+}
+.checkin_ctn_btn input[type="button"] {
+ margin: 10px 0;
+ width: 87px;
+ height: 87px;
+ background-image: url(/common/img/checkin_btn.png);
+ background-size: 100% 100%;
+ border: none;
+ background-color: transparent;
+ font-size: 0;
+ cursor: pointer;
+}
+
+.pdt-fix {
+    padding-top: 110px;
+}
+#dynCalendarTest2 {
+    left: 0 !important;
+}
+
+
+#tab3 .iframebox select {
+    background-color: #fff !important;
+}
+
+
+@media screen and (max-width: 640px) {
+ 
+/*   update reservation */ 
+ .pdt-fix {
+    padding-top: 20px;
+}
+.headerPage_nav-sp_ctn .reservation_sp {
+ background-color: #1a3651;
+ color: #fff;
+ font-size: 12px;
+ padding: 12px 15px;
+}
+.headerPage_nav-sp_ctn .item-pentium {
+background-color: #333333;
+}   
+.headerPage_nav-sp_ctn .reservation_sp ul {
+ margin: 0;padding: 0; 
+}
+.headerPage_nav-sp_ctn .reservation_sp ul li {
+ font-size: 15px;
+ margin: 0;
+ padding: 0;
+}
+.headerPage_nav-sp_ctn .reservation_sp > p {
+ margin: 0 0 8px 0;
+ padding: 0;
+}
+.headerPage_nav-sp_ctn .reservation_sp ul li a {
+ background: none !important;
+ color: #fff;
+ padding: 1px 15px;
+ font-size: 14px;
+}
+
+.headerPage_nav-sp_ctn .reservation_sp ul li a:before {
+ content: url("/common/img/reservation_next_sp.png");
+ margin-left: -12px;
+ padding-right: 5px;
+}
+ 
+/*   update reservation */ 
+}
+
+
+.checkin .checkin_ttl {
+    padding: 18px 0;
+    margin-top: 1px;
+}
+
+.checkin .checkin_ttl {
+    min-height: 72px;
+}
+
+
+
+
+
+
+
+#blk-checkin .blk-checkin_inner {
+    max-width: 1000px;
+    width: 100%;
+}
+
+#blk-checkin .blk-checkin_inner-title {
+    width: 30%;
+}
+
+#blk-checkin .blk-checkin_inner-content {
+    width: 68.7%;
+}
+
+
+@media screen and (max-width: 640px) {
+    #footer .footer_bottom-logo img {
+        width: auto !important;
+        max-width: 70%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    #blk-checkin .blk-checkin_inner-title {
+        font-size: 12px !important;
+    }
+}
+
+
+
+
+
+/*★追加ここから*/
+
+.checkin .blk-checkin_inner .iframebox {
+    margin: 7px 0 0 0;
+    max-width: 669px;
+    width: 99%;
+   padding-top: 3px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .checkin .blk-checkin_inner .iframebox {
+        margin: 8px 0 0 0;
+        max-width: 669px;
+        width: 99%;
+    }
+}
+
+/*★追加ここまで*/
+
+
+.checkin .container .iframebox {
+    margin: 7px 0 0 0;
+    max-width: 669px;
+    width: 95%;/*★20170704追加*/
+   padding-top: 3px;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .checkin .container .iframebox {
+        margin: 8px 0 0 0;
+        max-width: 669px;
+        width: 95%;/*★20170704追加*/
+    }
+ }  
+    
+
+
+
+
+
+/* NVDuoc_Google-Map */
+
+#Google-Map {
+    width: 100%;
+    overflow: hidden;
+    height: 300px;
+}
+
+#Google-Map > iframe {
+    width: 100%;
+    height: 640px;
+    border: 0;
+    margin-top: -170px;
+}
+   
+
+
+/* NVDuoc_Area-Banner */
+#Area-Banner {
+    margin-top: 30px;
+    display: block;
+    text-align: center;
+}
+
+#Area-Banner img {
+    max-width: 100%;
+}
+
+/* NVDuoc_Area-Banner_SP */
+@media screen and (max-width: 640px) {
+    .contentCmn03 .mt30, .contentCmn03 #Area-Banner {
+        margin-top: 5px;
+    }
+    .sec-content-03_inner-content #Area-Banner {
+        margin-top: 15px;
+    }
+}
